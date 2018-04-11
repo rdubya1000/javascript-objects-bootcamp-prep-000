@@ -2,7 +2,7 @@ var playlist = { 'Slowdive': 'Alison', 'My Bloody Valintine': 'Sometimes'}
 
 function updatePlaylist(playlist, artistsName, songTitle){
   var artistName ='Phil Ochs'
-  songTitle = "Here's to the State of Mississippi"
+  songTitle = 
   
   Object.assign({}, playlist, {'Phil Ochs': songTitle})
   
