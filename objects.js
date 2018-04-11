@@ -1,7 +1,5 @@
-var playlist = { Metallica: 'One'};
+var playlist = { Slowdive: 'Alison', 'My Bloody Valintine': 'Sometimes'}
 
-playlist.Slowdive = 'Alison'
-playlist['My Bloody Valintine'] = 'Sometimes'
 
 function updatePlaylist (playlist, artistName, songTitle){
 
