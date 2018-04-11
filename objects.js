@@ -1,9 +1,11 @@
 var playlist = { 'Slowdive': 'Alison', 'My Bloody Valintine': 'Sometimes'}
 
 
-function updatePlaylist (playlist, artistName, songTitle){
+function updatePlaylist (obj, artistName, songTitle){
 
-  Object.assign({ 'Phil Ochs': "Here's to the State of Mississippi"})
+obj [key] = value
   
-  return playlist
+  return object
 }
+
+updatePlaylist (playlist, 'Phil Ochs': )
