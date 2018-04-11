@@ -3,10 +3,9 @@ var playlist = { Metallica: 'One'};
 playlist.Slowdive = 'Alison'
 playlist['My Bloody Valintine'] = 'Sometimes'
 
-function updatePlaylist (obj, key, value){
-  obj[key] = value
-  
-  return obj
-}
+function updatePlaylist (playlist, key, value){
 
-updatePlaylistv(playlist, )
+  Object.assign({ slowdive: 'Alison'}, {'My Bloody Valentine': 'Sometimes'})
+  
+  return playlist
+}
